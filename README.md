@@ -1,16 +1,27 @@
 # flutteruichallenge
 
-A new Flutter project.
+Hi, This is my personal repository to improve my coding UI skill. Feel free to look at it.
 
-## Getting Started
+## Note
 
-This project is a starting point for a Flutter application.
+Every time I made an UI update, It is going to be inside lib `uixx` folder.
 
-A few resources to get you started if this is your first Flutter project:
+## Usage
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+If you want to see what UI looks like, just update in `main.dart` file.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: SimpleLogin(), // You should change this class to what ever you want (see the ui folder)
+    );
+```
+Feel free to give any feedback!
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
